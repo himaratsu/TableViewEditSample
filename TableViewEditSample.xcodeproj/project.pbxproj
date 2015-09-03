@@ -11,7 +11,7 @@
 		D9CB1F901B97CB6D00A1F110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1F8F1B97CB6D00A1F110 /* ViewController.swift */; };
 		D9CB1F931B97CB6D00A1F110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CB1F911B97CB6D00A1F110 /* Main.storyboard */; };
 		D9CB1F951B97CB6D00A1F110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CB1F941B97CB6D00A1F110 /* Assets.xcassets */; };
-		D9CB1F981B97CB6D00A1F110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CB1F961B97CB6D00A1F110 /* LaunchScreen.storyboard */; };
+		D9CB1FA21B97CF5D00A1F110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CB1FA11B97CF5D00A1F110 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +20,8 @@
 		D9CB1F8F1B97CB6D00A1F110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9CB1F921B97CB6D00A1F110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9CB1F941B97CB6D00A1F110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9CB1F971B97CB6D00A1F110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9CB1F991B97CB6D00A1F110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CB1FA11B97CF5D00A1F110 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 				D9CB1F8D1B97CB6D00A1F110 /* AppDelegate.swift */,
 				D9CB1F8F1B97CB6D00A1F110 /* ViewController.swift */,
 				D9CB1F911B97CB6D00A1F110 /* Main.storyboard */,
+				D9CB1FA11B97CF5D00A1F110 /* LaunchScreen.storyboard */,
 				D9CB1F941B97CB6D00A1F110 /* Assets.xcassets */,
-				D9CB1F961B97CB6D00A1F110 /* LaunchScreen.storyboard */,
 				D9CB1F991B97CB6D00A1F110 /* Info.plist */,
 			);
 			path = TableViewEditSample;
@@ -121,7 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9CB1F981B97CB6D00A1F110 /* LaunchScreen.storyboard in Resources */,
+				D9CB1FA21B97CF5D00A1F110 /* LaunchScreen.storyboard in Resources */,
 				D9CB1F951B97CB6D00A1F110 /* Assets.xcassets in Resources */,
 				D9CB1F931B97CB6D00A1F110 /* Main.storyboard in Resources */,
 			);
@@ -148,14 +148,6 @@
 				D9CB1F921B97CB6D00A1F110 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D9CB1F961B97CB6D00A1F110 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9CB1F971B97CB6D00A1F110 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,6 +239,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewEditSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.mashroom.TableViewEditSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,6 +251,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewEditSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.mashroom.TableViewEditSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,6 +277,7 @@
 				D9CB1F9E1B97CB6D00A1F110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
